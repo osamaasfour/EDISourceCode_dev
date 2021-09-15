@@ -14,13 +14,13 @@ namespace GLC.Integration.CargowiseOne.Classic2.Schemas {
   <xsl:template match=""/s1:X12InterchangeXml"">
     <xsl:variable name=""var:v1"" select=""userCSharp:StringConcat(&quot;GDS&quot;)"" />
     <xsl:variable name=""var:v2"" select=""userCSharp:StringConcat(&quot;US&quot;)"" />
-    <!--<xsl:variable name=""var:v3"" select=""userCSharp:StringConcat(&quot;GLCGDSTRN&quot;)"" />-->
+    <xsl:variable name=""var:v3"" select=""userCSharp:StringConcat(&quot;GLCGDSTRN&quot;)"" />
     <!--PROD Value-->
-    <xsl:variable name=""var:v3"" select=""userCSharp:StringConcat(&quot;glcgdslax&quot;)"" />
+    <!--<xsl:variable name=""var:v3"" select=""userCSharp:StringConcat(&quot;glcgdslax&quot;)"" />-->
     <xsl:variable name=""var:v4"" select=""userCSharp:StringConcat(&quot;GLC&quot;)"" />
-    <!--<xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;TRN&quot;)"" />-->
+    <xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;TRN&quot;)"" />
     <!--PROD Value-->
-    <xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;GDS&quot;)"" />
+    <!--<xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;GDS&quot;)"" />-->
     <xsl:variable name=""var:v6"" select=""userCSharp:StringConcat(&quot;WarehouseOrder&quot;)"" />
     <ns0:UniversalShipment>
       <ns0:Shipment>

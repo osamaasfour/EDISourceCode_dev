@@ -13,17 +13,17 @@ namespace GLC.Integration.CargowiseOne.Classic2.Schemas {
   </xsl:template>
   <xsl:template match=""/ns0:UniversalShipment"">
     <!--Test Value-->
-    <!--<xsl:variable name=""var:v1"" select=""userCSharp:StringConcat(&quot;GLCTRN&quot;)"" />
+    <xsl:variable name=""var:v1"" select=""userCSharp:StringConcat(&quot;GLCTRN&quot;)"" />
     <xsl:variable name=""var:v2"" select=""userCSharp:StringConcat(&quot;GLCGDSTRN&quot;)"" />
     <xsl:variable name=""var:v3"" select=""userCSharp:StringConcat(&quot;OnAll&quot;)"" />
     <xsl:variable name=""var:v4"" select=""userCSharp:StringConcat(&quot;eAdaptor&quot;)"" />
-    <xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;GLCGDSTRN&quot;)"" />-->
+    <xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;GLCGDSTRN&quot;)"" />
     <!--Prod Value-->
-    <xsl:variable name=""var:v1"" select=""userCSharp:StringConcat(&quot;GLCLAX&quot;)"" />
+    <!--<xsl:variable name=""var:v1"" select=""userCSharp:StringConcat(&quot;GLCLAX&quot;)"" />
     <xsl:variable name=""var:v2"" select=""userCSharp:StringConcat(&quot;GLCGDSLAX&quot;)"" />
     <xsl:variable name=""var:v3"" select=""userCSharp:StringConcat(&quot;OnAll&quot;)"" />
     <xsl:variable name=""var:v4"" select=""userCSharp:StringConcat(&quot;eAdaptor&quot;)"" />
-    <xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;GLCGDSLAX&quot;)"" />
+    <xsl:variable name=""var:v5"" select=""userCSharp:StringConcat(&quot;GLCGDSLAX&quot;)"" />-->
     <xsl:variable name=""var:v7"" select=""userCSharp:DateCurrentDateTime()"" />
     <ns0:UniversalInterchange>
       <ns0:Header>
