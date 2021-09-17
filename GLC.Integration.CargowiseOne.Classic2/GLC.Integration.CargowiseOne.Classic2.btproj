@@ -152,6 +152,12 @@
       <Namespace>GLC.Integration.CargowiseOne.Classic2.Schemas._856.HomeDepot</Namespace>
       <SubType>Task</SubType>
     </Map>
+    <Map Include="Schemas\856\Mills\TransformMillsShipmentToEDI856.btm">
+      <TypeName>TransformMillsShipmentToEDI856</TypeName>
+      <Namespace>GLC.Integration.CargowiseOne.Classic2.Schemas._856.Mills</Namespace>
+      <SubType>Task</SubType>
+    </Map>
+    <Content Include="Schemas\856\Mills\TransformMills856ShipmentToEDI856.xslt" />
     <Content Include="Schemas\856\Petco\TransformPetco856ShipmentToEDI856.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -189,9 +195,7 @@
       <SubType>Task</SubType>
     </Map>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Schemas\856\Mills\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
 </Project>
